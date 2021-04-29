@@ -27,12 +27,3 @@ Route::get('/student/{student}/edit', [StudentsController::class, 'edit']);
 Route::get('/student/{student}', [StudentsController::class, 'show']);
 Route::post('/student', [StudentsController::class, 'store']);
 Route::patch('/student/{student}', [StudentsController::class, 'update']);
-
-
-
-
-
-
-Route::get('/detail', [StudentsController::class, 'detail']);
-Route::get('/ubah', [StudentsController::class, 'ubah']);
-Route::get('/tambah', [StudentsController::class, 'tambah']);
